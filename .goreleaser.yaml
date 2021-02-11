@@ -1,0 +1,10 @@
+project_name: lidar-diver
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    goarm:
+      - 5
