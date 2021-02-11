@@ -52,7 +52,7 @@ func main() {
 
 	fmt.Println("starting...")
 
-	c := &serial.Config{Name: "/dev/ttyUSB0", Baud: 115200}
+	c := &serial.Config{Name: "/dev/ttyS0", Baud: 115200}
 	s, err := serial.OpenPort(c)
 	if err != nil {
 		log.Fatalf("Error opening serial port %v", err)
