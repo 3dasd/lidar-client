@@ -1,4 +1,4 @@
-module github.com/dvoros/lidar-client
+module github.com/3dasd/lidar-client
 
 go 1.15
 
