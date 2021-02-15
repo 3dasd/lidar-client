@@ -1,4 +1,4 @@
-project_name: lidar-diver
+project_name: lidar-client
 builds:
   - env: [CGO_ENABLED=0]
     goos:
